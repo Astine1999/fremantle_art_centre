@@ -1,0 +1,27 @@
+.bg-1 {
+    background-image: url("images/header1.png");
+    background-size: cover;/*  make the image cover the whole div */
+height:100vh; /* temporarily give the div some height  */ /* do not use pixel heights on divs- this is not responsive – instead add padding on the children as a  percentage*/
+}
+
+.navbar-dark .navbar-nav .nav-link {
+        color: #D73869;
+    }
+
+.navbar{
+        font-size:0.875em;
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+
+    .bg-2{
+        margin-top: 10%;
+
+    }
+.head-1 {
+color: white;
+font-size: 8em;
+font-family: nunito sans;
+             }
