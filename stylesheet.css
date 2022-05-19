@@ -4,17 +4,29 @@
 height:100vh; /* temporarily give the div some height  */ /* do not use pixel heights on divs- this is not responsive – instead add padding on the children as a  percentage*/
 }
 
+.logo-image{
+    width: 15%;    
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+li.nav-item {
+    margin-right: 30px;
+}
 .navbar-dark .navbar-nav .nav-link {
-        color: #D73869;
+        color: white;
     }
 
 .navbar{
-        font-size:0.875em;
-    }
+        font-size:1em;
+        padding: 2%;
+        
+}
 
     .nav-link:hover {
         color: white;
     }
+
 
     .bg-2{
         margin-top: 10%;
@@ -25,3 +37,9 @@ color: white;
 font-size: 8em;
 font-family: nunito sans;
              }
+
+.btn-info {
+    background-color: #0EBCC7;
+    color: white;
+    border: none;
+}
