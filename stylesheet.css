@@ -1,7 +1,7 @@
 .bg-1 {
     background-image: url("images/header1.png");
     background-size: cover;/*  make the image cover the whole div */
-height:100vh; /* temporarily give the div some height  */ /* do not use pixel heights on divs- this is not responsive – instead add padding on the children as a  percentage*/
+height: 80vh; /* temporarily give the div some height  */ /* do not use pixel heights on divs- this is not responsive – instead add padding on the children as a  percentage*/
 }
 
 .logo-image{
@@ -27,14 +27,10 @@ li.nav-item {
         color: white;
     }
 
-
-    .bg-2{
-        margin-top: 10%;
-
-    }
 .head-1 {
+    padding-top: 8%;
 color: white;
-font-size: 8em;
+font-size: 6em;
 font-family: nunito sans;
              }
 
@@ -42,4 +38,23 @@ font-family: nunito sans;
     background-color: #0EBCC7;
     color: white;
     border: none;
+    margin-top:2%;
+}
+
+.bg-3 {
+    padding-top: 8%;
+    padding-bottom:2%;
+
+}
+
+.title {
+    font-family: nunito sans;
+    font-size: 2.5em;
+}
+
+.info {
+    text-align: left;
+    padding-top: 10%;
+    font-size: 1.25em;
+    font-family: PT Sans;
 }
