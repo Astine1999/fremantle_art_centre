@@ -1,13 +1,14 @@
 .bg-1 {
     background-image: url("images/header1.png");
     background-size: cover;/*  make the image cover the whole div */
-height: 80vh; /* temporarily give the div some height  */ /* do not use pixel heights on divs- this is not responsive – instead add padding on the children as a  percentage*/
+height: 85vh; /* temporarily give the div some height  */ /* do not use pixel heights on divs- this is not responsive – instead add padding on the children as a  percentage*/
 }
 
 .logo-image{
     width: 15%;    
     overflow: hidden;
     margin-top: -6px;
+
 }
 
 li.nav-item {
@@ -28,7 +29,7 @@ li.nav-item {
     }
 
 .head-1 {
-    padding-top: 8%;
+    padding-top: 5%;
 color: white;
 font-size: 6em;
 font-family: nunito sans;
@@ -50,11 +51,205 @@ font-family: nunito sans;
 .title {
     font-family: nunito sans;
     font-size: 2.5em;
+    margin-top: 3%;
 }
 
 .info {
     text-align: left;
-    padding-top: 10%;
+    padding-top: 8%;
+    padding-left: 28%;
     font-size: 1.25em;
     font-family: PT Sans;
 }
+
+.img1 {
+    padding-right: 5%;
+}
+
+.bg-4{
+    background-color: #1C0552;
+   margin-top: 5%;
+   padding-top: 3%;
+   padding-bottom: 5%;
+   padding-left: none;
+   padding-right:none;
+   color: white;
+}
+
+h5 {
+    padding-top:5%;
+}
+
+h2.title2{
+    padding-top: 5%;
+    margin-bottom: 4%;
+    font-family: nunito sans;
+    font-size: 2.5em;
+}
+
+.container-fluid {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+
+.tag {
+    text-align: left;
+    font-family: PT Sans;
+    font-size: 4em;
+    color:#D73869;
+    margin-top: 35%;
+
+}
+
+/* Get rid of all default margins/paddings. Set typeface */
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: PT Sans;
+  }
+
+  /* Puts the form in the center both horizontally and vertically. Sets its height to 100% of the viewport's height */
+
+.signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } 
+
+  .form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+  }
+  
+  .title {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  .inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+  }
+
+  /* Style the inputs */
+
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+  }
+  
+  /* Hide the placeholder texts (a) */
+  
+  ::placeholder {
+    color: transparent;
+  }
+
+  /* Styling text labels */
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+  }
+
+  .submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: #D73869;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  .submitBtn:hover {
+    background-color: #D73869;
+    transform: translateY(-2px);
+  }
+
+  .input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #D73869;
+  }
+
+  .input:focus {
+    border: 2px solid #D73869;
+  }
+
+  .input:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-image: url(images/footer.jpg);
+    color: white;
+    font-family: PT Sans;
+  }
+
+  .fa-facebook {
+    color: white;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+
+  .fa-instagram {
+    color: white;
+  }
+
+  .fa-linkedin {
+    color: white;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+    color: #D73869;
+}
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 7%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
