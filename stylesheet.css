@@ -350,3 +350,136 @@ font-family: nunito sans;
 height: 85vh; /* temporarily give the div some height  */ /* do not use pixel heights on divs- this is not responsive – instead add padding on the children as a  percentage*/
 }
 
+.events-page-nav-link {
+  margin-right: 30px;
+  color: black;
+  font-size:1em;
+      padding: 2%;
+      flex-wrap: nowrap;
+}
+
+a.nav-link-events-page {
+  color: black;
+}
+
+
+.header-3 {
+  background-color: #221942;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-bottom:3%;
+color: white;
+font-size: 3.25em;
+font-family: nunito sans;
+text-align: left;
+text-align: center;
+}
+
+.bg-10-container-fluid {
+float: left;
+margin-top: 15%;
+}
+
+.events-title {
+  color: #D73869;
+  font-size: 3em;
+  font-family: nunito sans;
+  margin-top: 3%;
+}
+
+.events-subpara {
+  font-size: 2em;
+  font-family: PT Sans;
+
+}
+
+.col-9 {
+  padding-left: 0%;
+  flex: 0 0 41%;
+}
+
+.event-title {
+  font-family: nunito sans;
+  font-size: 1.5em;
+  margin-top: 5%;
+}
+
+.event-time {
+  font-family: PT Sans;
+  font-size: 0.75em;
+  padding-bottom:0%;
+}
+
+.date {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.month {
+  font-family: PT Sans;
+  font-size: 0.75em;
+  margin-top: 0%;
+}
+
+.events-imgs-container-fluid {
+  margin-top: 3%;
+  margin-left: 8%;
+  margin-bottom: 5%;
+}
+
+.explore {
+  color: #D73869;
+  font-family: PT Sans;
+  font-size: 0.75em;
+}
+
+.subpara {
+  margin-top: 5%;
+  margin-bottom: 3%;  
+  font-size: 2em;
+  font-family: PT Sans;
+}
+
+.bg-11 {
+  background-image: url("images/header1.png");
+  background-size: cover;/*  make the image cover the whole div */
+height: 20vh; /* temporarily give the div some height  */ /* do not use pixel heights on divs- this is not responsive – instead add padding on the children as a  percentage*/
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #0EBCC7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #D73869;
+}
+
+/* Add a background color and some padding around the form */
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
