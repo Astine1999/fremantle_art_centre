@@ -1,15 +1,15 @@
 .bg-1 {
     background-image: url("images/header1.png");
     background-size: cover;/*  make the image cover the whole div */
-height: 85vh; /* temporarily give the div some height  */ /* do not use pixel heights on divs- this is not responsive – instead add padding on the children as a  percentage*/
 }
 
-.logo-image{
+.img-fluid{
     width: 15%;    
     overflow: hidden;
     margin-top: -6px;
-
 }
+
+
 
 li.nav-item {
     margin-right: 30px;
@@ -18,22 +18,14 @@ li.nav-item {
         color: white;
     }
 
-.navbar{
-        font-size:1em;
-        padding: 2%;
-        flex-wrap: nowrap;
-        
-}
-
     .nav-link:hover {
         color: white;
     }
 
 
 .head-1 {
-    padding-top: 5%;
+    margin-top: 5%;
 color: white;
-font-size: 6em;
 font-family: nunito sans;
              }
 
@@ -42,6 +34,7 @@ font-family: nunito sans;
     color: white;
     border: none;
     margin-top:2%;
+    margin-bottom: 10%;
     font-family: nunito sans;
 }
 
@@ -257,13 +250,6 @@ body {
 height: 85vh; /* temporarily give the div some height  */ /* do not use pixel heights on divs- this is not responsive – instead add padding on the children as a  percentage*/
 }
 
-.head-1 {
-    padding-top: 5%;
-color: white;
-font-size: 6em;
-font-family: nunito sans;
-             
-}
 
 .bg-6 {
   padding-top: 3%;
@@ -482,4 +468,14 @@ input[type=submit]:hover {
   padding: 20px;
   margin-bottom: 10%;
   margin-top: 10%;
+  margin-left: 5%;
+  margin-right:5%;
 }
+
+
+
+
+
+
+
+
