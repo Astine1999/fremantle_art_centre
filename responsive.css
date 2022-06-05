@@ -1,0 +1,123 @@
+@media screen and (max-width: 1002px) {
+.info {
+    font-size: 1em;
+}
+    
+  }
+
+@media screen and (max-width: 812px) {
+    .info {
+        font-size: 0.9em;
+        margin-top: 3%;
+    }   
+      }
+
+@media screen and (max-width: 767px) {
+        .navbar {
+            margin-right: 0%;
+        }
+
+        li.nav-item {
+            margin-right: 2.3%; 
+            font-size: 0.75em;
+        }
+
+        .navbar-brand {
+            font-size: 1.25em;
+            margin-left: 0%;
+        }
+
+        .info {
+           text-align: center;
+           padding-top: 0%;
+           padding-left: 0%;
+           padding-bottom: 3%;
+        }   
+
+        .img1 {
+            padding-right: 0%;
+        }
+
+        .tag {
+            text-align: center;
+            font-size: 3em;
+            margin-top: 10%;
+        }
+
+        .signupFrm {
+            height: 85vh;
+        }
+
+        .title3 {
+            text-align: center;
+        }
+
+        .submitBtn {
+            margin-left: 33%;
+        }
+          }
+
+@media screen and (max-width: 590px) {
+            .navbar-brand {
+                font-size: 1em;
+                padding-left: 0%;
+            }
+        }
+          
+
+@media screen and (max-width: 540px) {
+    h2.title2 {
+        font-size: 2em;
+        margin-bottom: 0%;
+    }
+
+    h2.title2-5 {
+        font-size: 2em;
+    }
+
+    h5 {
+        font-size: 1em;
+    }
+
+    p.pinfo {
+        font-size: 0.9em;
+        margin-bottom: 5%;
+    }
+
+    .btn-lg {
+        font-size: 1em;
+    }
+
+    .tag {
+        font-size: 2.5em;
+    }
+
+    .title3 {
+        font-size: 2em;
+    }
+
+    input.submitBtn {
+        font-size: 0.9em ;
+    }
+
+    .submitBtn {
+        margin-left: 34%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar-brand {
+        font-size: 0.75em;
+    }
+}
+
+
+
+
+
+
+
+          
+
+    
+   
