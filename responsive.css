@@ -2,7 +2,8 @@
 .info {
     font-size: 1em;
 }
-    
+
+
   }
 
 @media screen and (max-width: 812px) {
@@ -10,6 +11,14 @@
         font-size: 0.9em;
         margin-top: 3%;
     }   
+
+    .fa {
+        font-size: 1.80em;
+    }
+
+    .foot {
+       font-size: 1em; 
+    }
       }
 
 @media screen and (max-width: 767px) {
@@ -17,7 +26,7 @@
             margin-right: 0%;
         }
 
-        li.nav-item {
+        .home-nav-item {
             margin-right: 2.3%; 
             font-size: 0.75em;
         }
@@ -57,6 +66,7 @@
         }
           }
 
+        
 @media screen and (max-width: 590px) {
             .navbar-brand {
                 font-size: 1em;
@@ -102,6 +112,14 @@
 
     .submitBtn {
         margin-left: 34%;
+    }
+
+    .fa {
+        font-size: 1.60em;
+    }
+
+    .foot {
+       font-size: 0.8em; 
     }
 }
 
