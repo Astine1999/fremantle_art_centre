@@ -42,33 +42,12 @@
       <!-- Brand -->
       <a class="navbar-brand" href="index.html"><span class="FAC">Fremantle Arts Centre</span></a>
     
-      <!-- Toggler/collapsibe Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav ml-auto">
-          <li class="home-nav-item text-right">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="home-nav-item text-right">
-            <a class="nav-link" href="events.html">Events</a>
-          </li>
-          <li class="home-nav-item text-right">
-            <a class="nav-link" href="#">Blog</a>
-            <li class="home-nav-item text-right">
-              <a class="nav-link" href="contact.html">Contact</a>
-               </li>
-        </ul>
-      </div>
-
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+     <!-- Toggler/collapsibe Button -->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
     </button>
-     <?php 
+      
+        <?php 
 
 wp_nav_menu( array(
   'theme_location'  => 'primary',
@@ -88,7 +67,7 @@ wp_nav_menu( array(
     <div class="container"><!-- div that holds the content in the middle of the page-->
               <h1 class="head-1" style="font-size:10vw"> Events on <br>this Week </h1><!--  the main tag line-->
           </div><!-- container-->
-          <a href="events.html" class="btn btn-info btn-lg" role="button">Explore</a>
+          <a href="<?php the_field('mainbutton');?>" class="btn btn-info btn-lg" role="button">Explore</a>
         </div>
         <?php wp_head(); ?> <!-- very important that this is added--> 
       </header>
