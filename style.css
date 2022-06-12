@@ -383,10 +383,14 @@ margin-top: 15%;
 
 }
 
+.col-3 {
+  padding-right: 1%;
+}
+
 .col-9 {
-  padding-left: 0%;
   margin-top:5%;
   flex: 0 0 41%;
+  margin-right: 25%;
 }
 
 a.event-title {
@@ -403,7 +407,113 @@ a.event-title {
   padding-bottom:0%;
 }
 
-.date {
+.date1  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+
+}
+
+.date2  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date3  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date4  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date5  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date6  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date7  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date8  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date9  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date10  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date11  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date12  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date13  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date14  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date15  {
+  color:#D73869;
+  font-size: 2.5em;
+  font-family: nunito sans;
+  margin-bottom: 0%;
+}
+
+.date16 {
   color:#D73869;
   font-size: 2.5em;
   font-family: nunito sans;
@@ -416,9 +526,9 @@ a.event-title {
   margin-top: 0%;
 }
 
-.events-imgs-container-fluid {
-  margin-top: 3%;
-  margin-bottom: 5%;
+.img-responsive {
+  width: 100%;
+  margin: 5%;
 }
 
 
