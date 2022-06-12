@@ -1,8 +1,88 @@
+@media screen and (max-width: 1199px) {
+    .col-3 {
+
+    padding-left: 5%;   
+
+}
+
+.date1  {
+   font-size:2em;
+  }
+  
+  .date2  {
+    font-size:2em;
+  }
+  
+  .date3  {
+    font-size:2em;
+
+  }
+  
+  .date4  {
+    font-size:2em;
+  }
+  
+  .date5  {
+    font-size:2em;
+  }
+  
+  .date6  {
+    font-size:2em;
+  }
+  
+  .date7  {
+    font-size:2em;
+  }
+  
+  .date8  {
+    font-size:2em;
+  }
+  
+  .date9  {
+    font-size:2em;
+  }
+  
+  .date10  {
+    font-size:2em;
+  }
+  
+  .date11  {
+    font-size:2em;
+  }
+  
+  .date12  {
+    font-size:2em;
+  }
+  
+  .date13  {
+    font-size:2em;
+  }
+  
+  .date14  {
+    font-size:2em;
+  }
+  
+  .date15  {
+    font-size:2em;
+  }
+  
+  .date16 {
+    font-size:2em;
+  }
+
+.col-9 {
+    padding-right: 12%;
+}
+}
+
+.col-9 {
+    margin-right: 15%;
+  }
+
 @media screen and (max-width: 1002px) {
 .info {
     font-size: 1em;
 }
-
 
   }
 
@@ -128,6 +208,7 @@
         font-size: 0.75em;
     }
 }
+
 
 
 
