@@ -3,8 +3,8 @@
     Template Name: Contact page
     */
     ?>
-<?php require_once('contact-header.php'); ?>
-<section class="container-fluid">
+<?php require_once('contact_header.php'); ?>
+  <section class="container-fluid">
 <div class="contact-container">
     <form action="action_page.php">
   
@@ -29,4 +29,4 @@
     </form>
   </div>
 </section>
-  <?php get_footer();?> 
+<?php get_footer();?> 
