@@ -81,7 +81,7 @@
                     <div class="row">
                         <img class="img-fluid" src="http://206.189.45.97/~mesh22/sub1/wp-content/themes/Fremantle_art_centre/fremantle_art_centre/images/e5.png">
                         <div class=col-9>
-                            <h2 class="event-title">Fantastic Kits</h2>
+                            <h2 class="event-title">Fanta Kits</h2>
                             <p class="event-time">2:30pm-4:00pm</p>
                         </div>
 
