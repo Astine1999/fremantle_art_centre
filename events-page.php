@@ -86,7 +86,7 @@
                     <div class="row">
                         <img class="img-responsive" src="<?php the_field('sectionimg5');?>">
                         <div class=col-9>
-                            <a class="event-title" href="<?php the_field('title5');?>">Fantastic Kits</a>
+                            <a class="event-title" href="<?php the_field('title5');?>">Fanta Kits</a>
                             <p class="event-time"><?php the_field('sectiontime5');?></p>
                         </div>
 
