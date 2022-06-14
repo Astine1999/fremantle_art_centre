@@ -5,6 +5,10 @@
 
 }
 
+.bg-5 {
+  height: 75vh;
+}
+
 .date1  {
    font-size:2em;
   }
@@ -70,36 +74,188 @@
     font-size:2em;
   }
 
-.col-9 {
-    padding-right: 12%;
-}
+  .col-9 {
+    padding-right: 0%;
+  }
+
+  .info4 {
+    padding-top: 3%;
+    font-size: 1.2em;
+  }
+
+  .info3 {
+      padding-top: 10%;
+      font-size: 1.2em;
+  }
+
+  .bg-5 {
+    height: 65vh;
+  }
+
+  .bg-6{
+    padding-top: 10%;
+  }
 }
 
-.col-9 {
-    margin-right: 15%;
-  }
 
 @media screen and (max-width: 1002px) {
 .info {
     font-size: 1em;
 }
 
+.bg-3{
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.tag {
+  padding-left: 3%;
+}
+
+.bg-5 {
+  height: 65vh;
+}
+  
+.info3 {
+  padding-top: 11%;
+  font-size: 1em;
+}
+
+.img-responsive1 {
+  width: 85%;
+  margin: 5%;
+}
+
+.info4 {
+  padding-left: 0%;
+  font-size: 1em;
+}
+
+h2.title2 {
+  font-size: 2.25em;
+}
+
+.parking-title {
+  font-size: 1.75em;
+}
+
+.parking-address {
+font-size: 0.75em;
+}
+
+.maps-title {
+  font-size: 1.75em;
+}
+
+.parking-address {
+font-size: 0.75em;
+}
+
+.img3.img-responsive {
+  width: 85%;
+  
+}
+
+
+.img-map.img-responsive {
+  width: 85%;
+}
+
   }
 
+  
+  @media screen and (max-width: 991px) {
+    .img-responsive1 {
+      width: 80%;
+      margin: 5%;
+    }
+
+    .info3 {
+      padding-top: 13%;
+      font-size: 0.9em;
+    }
+
+    .img3.img-responsive {
+      width: 100%;
+    }
+
+    .img-responsive3 {
+      width: 100%;
+      margin-top: 10%;
+    }
+
+    .info4 {
+      padding-left: 5%;
+      font-size: 0.9em;
+    }
+
+    .maps-title, .parking-title {
+      font-size: 1.7em;
+    }
+
+    .img-map.img-responsive {
+      width: 100%;
+    }
+
+    a.event-title {
+      font-size: 1.2em;
+    }
+
+    .date1, .date2, .date3, .date4, .date5, .date6, .date7, .date8, .date9, .date10, .date11, .date12, .date13, .date14, .date15, .date16 {
+      font-size: 1.7em;
+    }
+
+    .events-imgs-container-fluid {
+      padding-bottom: 2%;
+    }
+
+    .bg-6 {
+      padding-top: 20%;
+    }
+
+    .header-2 {
+      font-size: 5.5em;
+    }
+
+    .para-2 {
+      font-size: 1.25em;
+    }
+    
+  }
+
+
 @media screen and (max-width: 812px) {
-    .info {
-        font-size: 0.9em;
-        margin-top: 3%;
-    }   
+  .info4 {
+    font-size: 0.8em;
+    padding-top: 7%;
+  }
 
-    .fa {
-        font-size: 1.80em;
-    }
+  .maps-title, .parking-title {
+    font-size: 1.5em;
+  }
 
-    .foot {
-       font-size: 1em; 
-    }
-      }
+  .parking-address, .maps-address {
+    font-size: 0.7em;
+  }
+
+  .info {
+      font-size: 0.9em;
+      margin-top: 3%;
+  }   
+
+  .fa {
+      font-size: 1.80em;
+  }
+
+  .foot {
+     font-size: 1em; 
+  } 
+
+  .info3 {
+    font-size: 0.8em;
+  }
+}
+
 
 @media screen and (max-width: 767px) {
         .navbar {
@@ -119,7 +275,8 @@
         .info {
            text-align: center;
            padding-top: 0%;
-           padding-left: 0%;
+           padding-left: 3%;
+           padding-right: 3%;
            padding-bottom: 3%;
         }   
 
@@ -144,7 +301,94 @@
         .submitBtn {
             margin-left: 33%;
         }
+
+        .bg-3 {
+          padding-bottom: 0%;
+        }
+
+        .head-5 {
+          font-size: 4.5em;
+          margin-top: 15%;
+        }
+
+        a.event-title {
+          font-size: 0.9em;
+        }
+    
+        .date1, .date2, .date3, .date4, .date5, .date6, .date7, .date8, .date9, .date10, .date11, .date12, .date13, .date14, .date15, .date16 {
+          font-size: 1em;
+        }
+    
+        .events-imgs-container-fluid {
+          padding-bottom: 2%;
+        }
+
+        .col-9 {
+          margin-top: 5%;
+          flex: 0 0 41%;
+          margin-right: 20%;
+        }
+
+        .col-3 {
+          padding-top: 5%;
+        }
+
+        .info3 {
+          font-size: 0.75em;
+          align-content: center;
+          display: contents;
+        }
+
+        .img-responsive1 {
+          width: 70%;
+        }
+
+        .img2 {
+          padding-right: 0%;
+        }
           }
+
+          @media screen and (max-width: 575px) {
+            .events-title {
+            font-size: 2.5em;
+          }
+        
+          .events-subpara {
+            font-size: 1.75em;
+          }
+        
+          .img-responsive {
+            width: 65%;
+            margin: auto;
+          }
+        
+          .col-9 {
+              padding-left: 17%;
+              font-size: 1.5em;
+              padding-bottom: 5%;
+            }
+        
+            .col-3 {
+              font-size: 2em;
+                padding-left: 12%;
+            }
+        
+            .month {
+              font-size: 0.5em;
+            }
+        
+            .header-2 {
+              font-size: 4em;
+            }
+        
+            .para-2 {
+              font-size: 1em;
+            }
+        
+            .bg-5 {
+              height: 55vh;
+            }
+        }
 
         
 @media screen and (max-width: 590px) {
@@ -152,10 +396,39 @@
                 font-size: 1em;
                 padding-left: 0%;
             }
+
+            h2.title2-5 {
+              font-size: 2em;
+            }
+
+            .head-5 {
+              margin-top: 20%;
+            }
+
+            .container-fluid.maincontainer.maincontainer {
+              padding-left: 8%;
+              padding-right: 8%;
+              padding-bottom: 8%;
+            }
+
+            .readmore {
+              font-size: 0.85em;
+            }
+
+            img.attachment-thumbnail.size-thumbnail.wp-post-image {
+              margin-left: 0%;
+              float: none;
+              margin-right: 10%;
+              padding: 0px;
+            }
         }
           
 
 @media screen and (max-width: 540px) {
+  .head-5 {
+    font-size: 4.25em;
+  }
+
     h2.title2 {
         font-size: 2em;
         margin-bottom: 0%;
@@ -205,8 +478,51 @@
 
 @media screen and (max-width: 400px) {
     .navbar-brand {
-        font-size: 0.75em;
+        font-size: 1em;
     }
+    .submitBtn {
+      margin-left: 30%;
+  }
+
+  .signupFrm {
+    height: 65vh;
+  }
+
+  .img1 {
+    padding-right: 0%;
+  }
+
+  .head-5 {
+    font-size: 3.75em;
+    margin-top: 30%;
+  }
+
+  .container-fluid.maincontainer.maincontainer {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+  }
+
+  h2 {
+    padding-top: 8%;
+  }
+
+  .readmore {
+    font-size: 0.65em;
+  }
+
+  .header-2 {
+    font-size: 3em;
+  }
+
+  .para-2 {
+    font-size: 0.75em;
+  }
+
+  .bg-5 {
+    height: 35vh;
+  }
+
 }
 
 
