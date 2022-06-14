@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="<?php bloginfo('charset'); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&family=PT+Sans+Caption&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>
+<?php
+              if (function_exists('is_tag') && is_tag()) {
+                 single_tag_title("Tag Archive for &quot;"); echo '&quot; - '; }
+              elseif (is_archive()) {
+                 wp_title(''); echo ' Archive - '; }
+              elseif (is_search()) {
+                 echo 'Search for &quot;'.wp_specialchars($s).'&quot; - '; }
+              elseif (!(is_404()) && (is_single()) || (is_page())) {
+                 wp_title(''); echo ' - '; }
+              elseif (is_404()) {
+                 echo 'Not Found - '; }
+              if (is_home()) {
+                 bloginfo('name'); echo ' - '; bloginfo('description'); }
+              else {
+                  bloginfo('name'); }
+              if ($paged>1) {
+                 echo ' - page '. $paged; }
+           ?>
+</title>
+<meta name="description" content="<?php bloginfo('description'); ?>">
+<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
+</head>
+<body>
+  <header class="container-fluid small_header">   <!-- div for the main image the stretches to the edge of the page- -->
+    
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="index.html"><span class="FAC">Fremantle Arts Centre</span></a>
+    
+     <!-- Toggler/collapsibe Button -->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+      
+        <?php 
+
+wp_nav_menu( array(
+  'theme_location'  => 'primary',
+  'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+  'container'       => 'div',
+  'container_class' => 'collapse navbar-collapse',
+  'container_id'    => 'bs-example-navbar-collapse-1',
+  'menu_class'      => 'navbar-nav ml-auto',
+  'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+  'walker'          => new WP_Bootstrap_Navwalker(),
+) );
+
+?>
+</nav>
+
+  <div class="container-fluid style="background-size:cover; height:40vh; background-image: url(<?php the_field('blogheader') ?>);>  <!-- div for the main image the stretches to the edge of the page- -->
+    <div class="container"><!-- div that holds the content in the middle of the page-->
+              <h1 class="head-5 text-center" <?php the_field('blogtagline'); ?>> Blog </h1><!--  the main tag line-->
+          </div><!-- container-->
+        <?php wp_head(); ?> <!-- very important that this is added--> 
+      </header>
