@@ -6,7 +6,7 @@
 <?php require_once('events_header.php'); ?>
 <section class="container-fluid">
         <div class="container">
-          <h2 class="events-title text-center"> <?php the_field('sectiontagline');?></h2>
+          <h2 class="events-title text-center"> <mark> <?php the_field('sectiontagline');?> </mark></h2>
           <p class="events-subpara text-center"> <?php the_field('sectiontaglinepara');?></p>
         </div>
       </section>
