@@ -24,8 +24,8 @@
 <div class="row " >
   <div class="col-md-4">
     <img src="http://206.189.45.97/~mesh22/sub1/wp-content/themes/Fremantle_art_centre/fremantle_art_centre/images/music.png" class="img-fluid" alt="music">
-    <h5> Music</h5>
-    <p class="pinfo">Music for all your needs and desires!!</p>
+    <h5> <mark>Music</mark></h5>
+    <p class="pinfo"><mark>Music</mark> for all your needs and desires!!</p>
   </div> <!-- col -->
   <div class="col-md-4">
     <img src="http://206.189.45.97/~mesh22/sub1/wp-content/themes/Fremantle_art_centre/fremantle_art_centre/images/market.png" class="img-fluid" alt="food"> 
@@ -34,7 +34,7 @@
   </div> <!-- col -->
   <div class="col-md-4">
     <img src="http://206.189.45.97/~mesh22/sub1/wp-content/themes/Fremantle_art_centre/fremantle_art_centre/images/art.png" class="img-fluid" alt="paint">
-    <h5> Art</h5>
+    <h5> <mark>Art</mark></h5>
     <p class="pinfo">We have a wide variety of art by local artists up for display</p>
   </div> <!-- col -->
 </div> <!-- row -->
