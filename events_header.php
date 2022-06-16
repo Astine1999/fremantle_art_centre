@@ -42,7 +42,7 @@
   <header class="container-fluid bg-9" style="background-size: cover; background-image: url(<?php the_field('eventsheader') ?>);">  <!-- div for the main image the stretches to the edge of the page- -->
   <nav class="navbar navbar-expand-md navbar-dark">
       <!-- Brand -->
-      <a class="navbar-brand" href="index.html"><span class="FAC">Fremantle Arts Centre</span></a>
+      <a class="navbar-brand" href="index.html"><span class="FAC"><mark> Fremantle Arts Centre</mark></span></a>
     
      <!-- Toggler/collapsibe Button -->
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
@@ -66,7 +66,7 @@ wp_nav_menu( array(
 </nav>
   <div class="bg-10-container-fluid">   <!-- div for the main image the stretches to the edge of the page- -->
     <div class="container"><!-- div that holds the content in the middle of the page-->
-              <h1 class="header-3" style="font-size:5vw"> Fremantle arts <br>Centre concert Series </h1><!--  the main tag line-->
+              <h1 class="header-3" style="font-size:5vw"> <mark>Fremantle arts <br>Centre concert Series</mark> </h1><!--  the main tag line-->
           </div><!-- container-->
         </div>
         <?php wp_head(); ?> <!-- very important that this is added--> 
