@@ -41,7 +41,7 @@
     
     <nav class="navbar navbar-expand-md navbar-dark">
       <!-- Brand -->
-      <a class="navbar-brand" href="index.html"><span class="FAC">Fremantle Arts Centre</span></a>
+      <a class="navbar-brand" href="index.html"><span class="FAC"><mark> Fremantle Arts Centre</mark></span></a>
     
      <!-- Toggler/collapsibe Button -->
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
