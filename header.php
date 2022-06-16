@@ -41,7 +41,7 @@
     
     <nav class="navbar navbar-expand-md navbar-dark">
       <!-- Brand -->
-      <a class="navbar-brand" href="index.html"><span class="FAC">Fremantle Arts Centre</span></a>
+      <a class="navbar-brand" href="index.html"><span class="FAC"><mark> Fremantle Arts Centre</mark></span></a>
     
      <!-- Toggler/collapsibe Button -->
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
@@ -66,7 +66,7 @@ wp_nav_menu( array(
 
   <div class="container-fluid bg-2 text-center">   <!-- div for the main image the stretches to the edge of the page- -->
     <div class="container"><!-- div that holds the content in the middle of the page-->
-              <h1 class="head-1" style="font-size:10vw"> Events on <br>this Week </h1><!--  the main tag line-->
+              <h1 class="head-1" style="font-size:10vw"> <mark>Events</mark> on <br>this Week </h1><!--  the main tag line-->
           </div><!-- container-->
           <a href="<?php the_field('mainbutton');?>" class="btn btn-info btn-lg" role="button">Explore</a>
         </div>
