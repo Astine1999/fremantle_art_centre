@@ -5,9 +5,6 @@
 
 }
 
-.bg-5 {
-  height: 75vh;
-}
 
 .date1  {
    font-size:2em;
@@ -79,22 +76,16 @@
   }
 
   .info4 {
-    padding-top: 3%;
+    padding-top: 2%;
     font-size: 1.2em;
+    padding-left: 0%;
   }
 
   .info3 {
       padding-top: 10%;
-      font-size: 1.2em;
+      font-size: 1em;
   }
 
-  .bg-5 {
-    height: 65vh;
-  }
-
-  .bg-6{
-    padding-top: 10%;
-  }
 }
 
 
@@ -112,9 +103,6 @@
   padding-left: 3%;
 }
 
-.bg-5 {
-  height: 65vh;
-}
   
 .info3 {
   padding-top: 11%;
@@ -147,7 +135,7 @@ font-size: 0.75em;
   font-size: 1.75em;
 }
 
-.parking-address {
+.parking-address, .maps-address {
 font-size: 0.75em;
 }
 
@@ -171,7 +159,6 @@ font-size: 0.75em;
     }
 
     .info3 {
-      padding-top: 13%;
       font-size: 0.9em;
     }
 
@@ -193,10 +180,6 @@ font-size: 0.75em;
       font-size: 1.7em;
     }
 
-    .img-map.img-responsive {
-      width: 100%;
-    }
-
     a.event-title {
       font-size: 1.2em;
     }
@@ -209,20 +192,32 @@ font-size: 0.75em;
       padding-bottom: 2%;
     }
 
-    .bg-6 {
-      padding-top: 20%;
-    }
-
-    .header-2 {
-      font-size: 5.5em;
-    }
-
     .para-2 {
       font-size: 1.25em;
     }
-    
+    .img-map-responsive, .img-parking-responsive {
+      width: 100%;
+    }
   }
 
+
+  @media screen and (max-width: 850px){
+  .info3, .info4 {
+    font-size: 0.8em;
+  }
+
+  .info4 {
+    padding-top:7%;
+}
+
+.events-title {
+  font-size: 2.75em;
+}
+
+.events-subpara {
+  font-size: 1.75em;
+}
+  }
 
 @media screen and (max-width: 812px) {
   .info4 {
@@ -256,8 +251,17 @@ font-size: 0.75em;
   }
 }
 
+@media screen and (max-width: 786px){
+  .info3 {
+    padding-top: 6%;
+  }
+
+}
 
 @media screen and (max-width: 767px) {
+  .para-2 {
+    font-size: 1em;
+  }
         .navbar {
             margin-right: 0%;
         }
@@ -346,51 +350,59 @@ font-size: 0.75em;
         .img2 {
           padding-right: 0%;
         }
-          }
 
-          @media screen and (max-width: 575px) {
-            .events-title {
-            font-size: 2.5em;
-          }
-        
-          .events-subpara {
-            font-size: 1.75em;
-          }
-        
-          .img-responsive {
-            width: 65%;
-            margin: auto;
-          }
-        
-          .col-9 {
-              padding-left: 17%;
-              font-size: 1.5em;
-              padding-bottom: 5%;
-            }
-        
-            .col-3 {
-              font-size: 2em;
-                padding-left: 12%;
-            }
-        
-            .month {
-              font-size: 0.5em;
-            }
-        
-            .header-2 {
-              font-size: 4em;
-            }
-        
-            .para-2 {
-              font-size: 1em;
-            }
-        
-            .bg-5 {
-              height: 55vh;
-            }
+
+        .infoartist {
+          align-content: center;
+          display: flex;
+          padding-left: 15%;
+        }
+        .header-2 {
+          font-size: 5.7em;
         }
 
+        .img-responsive {
+          width: 94%;
+         margin: 0%;
+      }
+
+      .col-9 {
+        margin-right: 22%;
+    }
+    
+    .col-9 {
+      padding-left: 0%;
+  }
+
+
+  .events-title {
+    font-size: 2.5em;
+  }
+  
+  .events-subpara {
+    font-size: 1.5em;
+  }
+          }
+
+          @media screen and (max-width: 597px) {
+          .header-2 {
+            font-size: 5.5em;
+          }
+
+          .bg-5 {
+            height: 75vh;
+        }
+
+        .events-title {
+          font-size: 2em;
+        }
         
+        .events-subpara {
+          font-size: 1em;
+        }
+        }
+
+
 @media screen and (max-width: 590px) {
             .navbar-brand {
                 font-size: 1em;
@@ -421,7 +433,94 @@ font-size: 0.75em;
               margin-right: 10%;
               padding: 0px;
             }
+
+            .infoartist {
+              padding-left: 25%;
+            }
+
+            .infolist {
+              margin-left: 8%;
+            }
         }
+
+        @media screen and (max-width: 579px) {
+          .header-2 {
+            font-size: 5.25em;
+        }
+      }
+
+        @media screen and (max-width: 575px) {
+
+          .para-2 {
+            font-size: 0.75em;
+          }
+
+          .img-responsive3 {
+            width: 90%;
+            padding-left: 15%;
+          }
+
+          .infoartist {
+            padding-left: 14%;
+            padding-top: 0%;
+          }
+
+          .infolist {
+            margin-left: 7%;
+            padding-bottom: 5%;
+          }
+
+          .img-map-responsive, .img-parking-responsive {
+            width: 85%;
+          }
+
+          .events-title {
+          font-size: 2.5em;
+        }
+      
+        .events-subpara {
+          font-size: 1.75em;
+        }
+      
+        .img-responsive {
+          width: 65%;
+          margin: auto;
+        }
+      
+        .col-9 {
+            padding-left: 17%;
+            font-size: 1.5em;
+            padding-bottom: 5%;
+          }
+      
+          .col-3 {
+            font-size: 2em;
+              padding-left: 12%;
+          }
+      
+          .month {
+            font-size: 0.5em;
+          }
+      
+          .para-2 {
+            font-size: 1em;
+          }
+          .events-title {
+            font-size: 2em;
+        }
+
+        .events-subpara {
+          font-size: 1.5em;
+      }
+        
+      }
+
+
+    @media screen and (max-width: 557px) {
+      .header-2 {
+        font-size: 5em;
+    }
+  }
           
 
 @media screen and (max-width: 540px) {
@@ -476,6 +575,55 @@ font-size: 0.75em;
     }
 }
 
+@media screen and (max-width: 535px) {
+  .header-2 {
+    font-size: 4.5em;
+}
+
+.bg-5 {
+  height: 65vh;
+}
+}
+
+@media screen and (max-width: 490px) {
+  .header-2 {
+    font-size: 3.75em;
+}
+
+.bg-5 {
+  height: 55vh;
+}
+}
+
+
+@media screen and (max-width:446px) {
+  h2.title2 {
+    font-size: 1.74em;
+    margin-bottom: 3%;
+  }
+
+  .info3 {
+    font-size: 0.65em;
+  }
+
+  .infoartist {
+    font-size: 1.74em;
+  }
+
+  .infolist {
+    font-size: 0.8em;
+  }
+
+}
+  
+
+@media screen and (max-width: 423px) {
+  .header-2 {
+    font-size: 3em;
+}
+
+}
+
 @media screen and (max-width: 400px) {
     .navbar-brand {
         font-size: 1em;
@@ -511,19 +659,29 @@ font-size: 0.75em;
     font-size: 0.65em;
   }
 
-  .header-2 {
-    font-size: 3em;
-  }
-
   .para-2 {
     font-size: 0.75em;
   }
 
-  .bg-5 {
-    height: 35vh;
-  }
 
 }
+
+@media screen and (max-width: 357px) {
+  .header-2 {
+    font-size: 2.75em;
+}
+}
+
+@media screen and (max-width: 335px) {
+  .header-2 {
+    font-size: 2em;
+}
+
+.bg-5 {
+  height: 35vh;
+}
+}
+
 
 
 
