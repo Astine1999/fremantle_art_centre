@@ -25,7 +25,7 @@
 <div class="row " >
   <div class="col-md-4">
     <img class="img-fluid" alt="music" src="<?php the_field('offerimg1');?>">
-    <h5><?php the_field('offersubtag1');?></h5>
+    <h5> <mark><?php the_field('offersubtag1');?></mark></h5>
     <p class="pinfo"><?php the_field('offerpara1');?></p>
   </div> <!-- col -->
   <div class="col-md-4">
@@ -35,7 +35,7 @@
   </div> <!-- col -->
   <div class="col-md-4">
     <img class="img-fluid" alt="paint" src="<?php the_field('offerimg3');?>">
-    <h5><?php the_field('offersubtag3');?></h5>
+    <h5><mark><?php the_field('offersubtag3');?></mark></h5>
     <p class="pinfo"><?php the_field('offerpara3');?></p>
   </div> <!-- col -->
 </div> <!-- row -->
