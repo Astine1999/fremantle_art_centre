@@ -27,7 +27,7 @@
                 </div>
                 <!--col-->
                 <div class="col-sm-6 info4">
-                    <h2 class="infoartist"> <?php the_field('infoartist'); ?></h2>
+                    <h2 class="infoartist"> <mark> <?php the_field('infoartist'); ?> </mark></h2>
                     <ul class="infolist">
                    <li><?php the_field('infodot1'); ?></li> 
                    <li><?php the_field('infodot2'); ?></li> 
@@ -50,7 +50,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="maps-title"> <?php the_field('infomap'); ?></h2>
+                    <h2 class="maps-title"> <mark> <?php the_field('infomap'); ?> </mark></h2>
                     <p class="maps-address"><?php the_field('infomapaddress'); ?></p>
                     <img  src="<?php the_field('mapimg1');?>" alt="map of FAC" class="img-map-responsive">
                 </div>
