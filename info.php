@@ -28,8 +28,8 @@
                 </div>
                 <!--col-->
                 <div class="col-sm-6 info4">
-                    <h2> Artists</h2>
-                    <ul>
+                    <h2 class="infoartist"> Artists</h2>
+                    <ul class="infolist">
                    <li>Amanda Bell (Yued & Badimia People, WA)</li> 
                    <li>Sam Bloor (WA)</li> 
                     <li>Ron Bradfield (Bard People, WA)</li>
@@ -53,19 +53,19 @@
                 <div class="col-md-6">
                 <h2 class="maps-title"> Map</h2>
                     <p class="maps-address">1 Finnerty St, Fremantle WA 6160</p>
-                    <img  src="http://206.189.45.97/~mesh22/sub1/wp-content/themes/Fremantle_art_centre/fremantle_art_centre/images/map1.png" alt="map of FAC" class="img-map img-responsive">
+                    <img  src="http://206.189.45.97/~mesh22/sub1/wp-content/themes/Fremantle_art_centre/fremantle_art_centre/images/map1.png" alt="map of FAC" class="img-map-responsive">
                 </div>
                 <!--col-->
-                <div class="col-sm-6">
+                <div class="col-md-6 parking">
                 <h2 class="parking-title"> Parking available</h2>
                     <p class="parking-address">CPP Fremantle</p>
-                    <img  src="http://206.189.45.97/~mesh22/sub1/wp-content/themes/Fremantle_art_centre/fremantle_art_centre/images/map2.png" alt="map of CPP parking" class="img-map img-responsive">
+                    <img  src="http://206.189.45.97/~mesh22/sub1/wp-content/themes/Fremantle_art_centre/fremantle_art_centre/images/map2.png" alt="map of CPP parking" class="img-parking-responsive">
                 </div>
                 <!--col-->
             </div>
             <!--row-->
         </div>
         <!--container-->
-        <a href="#" class="btn2 btn-info btn-lg" role="button">Book now</a>
+        <a href="#" class="btn2 btn-info btn-lg booknow" role="button">Book now</a>
     </section>
     <?php get_footer();?>   <!-- Tells WordPress to include footer.php   -->
