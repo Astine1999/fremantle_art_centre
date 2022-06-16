@@ -1,7 +1,7 @@
 <?php get_header();?>   <!--  Tells WordPress to include header.php -->
 <section class="container-fluid">
         <div class="container">
-          <h2 class="events-title text-center"> Events</h2>
+          <h2 class="events-title text-center"> <mark> Events </mark></h2>
           <p class="events-subpara text-center"> This Week</p>
         </div>
       </section>
