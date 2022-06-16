@@ -27,8 +27,8 @@
                 </div>
                 <!--col-->
                 <div class="col-sm-6 info4">
-                    <h2> <?php the_field('infoartist'); ?></h2>
-                    <ul>
+                    <h2 class="infoartist"> <?php the_field('infoartist'); ?></h2>
+                    <ul class="infolist">
                    <li><?php the_field('infodot1'); ?></li> 
                    <li><?php the_field('infodot2'); ?></li> 
                     <li><?php the_field('infodot3'); ?></li>
@@ -52,19 +52,19 @@
                 <div class="col-md-6">
                     <h2 class="maps-title"> <?php the_field('infomap'); ?></h2>
                     <p class="maps-address"><?php the_field('infomapaddress'); ?></p>
-                    <img  src="<?php the_field('mapimg1');?>" alt="map of FAC" class="img-map img-responsive">
+                    <img  src="<?php the_field('mapimg1');?>" alt="map of FAC" class="img-map-responsive">
                 </div>
                 <!--col-->
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <h2 class="parking-title"> <?php the_field('infoparking'); ?></h2>
                     <p class="parking-address"><?php the_field('infoparkingaddress'); ?></p>
-                    <img  src="<?php the_field('parkingimg1');?>" alt="map of CPP parking" class="img-map img-responsive">
+                    <img  src="<?php the_field('parkingimg1');?>" alt="map of CPP parking" class="img-parking-responsive">
                 </div>
                 <!--col-->
             </div>
             <!--row-->
         </div>
         <!--container-->
-        <a href="#" class="btn2 btn-info btn-lg" role="button">Book now</a>
+        <a href="#" class="btn2 btn-info btn-lg booknow" role="button">Book now</a>
     </section>
     <?php get_footer();?>
