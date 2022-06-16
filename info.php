@@ -5,7 +5,7 @@
         </div> <!-- container -->
             <div class="row">
               <div class="col-md-6">
-<p class="info3">The fremantle arts festival presents Flanked by deep waters, 
+<p class="info3"><mark>The fremantle arts festival</mark> presents Flanked by deep waters, 
     our state and our nation’s connection with the coast is complex and multilayered. 
     From narratives of the beginning of time, of creation, to our collective imaginings 
     of the future, the oceans that surround our island continent and the oceans and seas 
@@ -28,7 +28,7 @@
                 </div>
                 <!--col-->
                 <div class="col-sm-6 info4">
-                    <h2 class="infoartist"> Artists</h2>
+                    <h2 class="infoartist"> <mark> Artists</mark></h2>
                     <ul class="infolist">
                    <li>Amanda Bell (Yued & Badimia People, WA)</li> 
                    <li>Sam Bloor (WA)</li> 
@@ -51,7 +51,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                <h2 class="maps-title"> Map</h2>
+                <h2 class="maps-title"> <mark> Map </mark></h2>
                     <p class="maps-address">1 Finnerty St, Fremantle WA 6160</p>
                     <img  src="http://206.189.45.97/~mesh22/sub1/wp-content/themes/Fremantle_art_centre/fremantle_art_centre/images/map1.png" alt="map of FAC" class="img-map-responsive">
                 </div>
